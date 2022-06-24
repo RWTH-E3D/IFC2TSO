@@ -21,7 +21,7 @@ conda env create -f environment.yml
 The implementation of the IFC2TSO process is implemented as a command line interface application. Here, the user has to specify the paths of the IFC models as input. In addition, optional parameters can be used to customize the functionality of the process step. The call of the process is shown below and the optional parameters are explained in the table.
 
 ```
-python src/main.py [-l] [-i] [-bcf_p] [-bcf_pm] [-rds {RDS}] [-ce {L}] [-data] [-bcf_sh] [-r {R}] [-add_edges {JSON}] [-add_sh {JSON}] [-cr] [-bcf_fd] [-add_ic {JSON}] [-add_fc {JSON}] [-add_spatial {IFC}] [-ifcowl] [-use_ns {NS}] [-h] IFC-Modelle
+python src/main.py [-l] [-i] [-bcf_p] [-bcf_pm] [-rds {RDS}] [-ce {L}] [-data] [-bcf_sh] [-r {R}] [-add_edges {JSON}] [-add_sh {JSON}] [-cr] [-bcf_fd] [-add_ic {JSON}] [-add_fc {JSON}] [-add_spatial {IFC}] [-ifcowl] [-use_ns {NS}] [-h] ifc-models
 ```
 |      parameter |description           		 |
 |----------------|--------------------------------------|
