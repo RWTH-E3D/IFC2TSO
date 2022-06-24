@@ -1,0 +1,7 @@
+name: IFC2GRAPH
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - ifcopenshell=v0.6.0=py37hedfdac4_6
