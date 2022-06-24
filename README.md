@@ -2,19 +2,10 @@
 
 # IFC2TSO
 
-The IFC2TSO process includes algorithmic processing, complexity reduction and transfer of information from IFC models to TSO. The process has a modular design so that the individual process steps can also be used independently. A schematic representation of the process and the modular process steps IFC2GRAPH, GRAPH and GRAPH2TSO are shown below.
+The IFC2TSO process includes algorithmic processing, complexity reduction and transfer of information from IFC models to TSO. The process has a modular design so that the individual process steps can also be used independently. A schematic representation of the process is shown below. Further information on the process is given in the specified source.
 
 
 ![IFC2TSO](assets/IFC2TSO.png?raw=true "Process of algorithmic processing, complexity reduction and information transfer from IFC to TSO.")
-
-### IFC2GRAPH
-![IFC2GRAPH](assets/IFC2GRAPH.png?raw=true "Schematic representation of a selection of sub-processes and their dependencies in the IFC2GRAPH process step.")
-
-### GRAPH
-![GRAPH](assets/GRAPH.png?raw=true "Schematic representation of a selection of sub-processes and their dependencies in the GRAPH process step.")
-
-### GRAPH2TSO
-![GRAPH2TSO](assets/GRAPH2TSO.png?raw=true "Schematic representation of a selection of sub-processes and their dependencies in the GRAPH2TSO process step.")
 
 
 ## Implementation
